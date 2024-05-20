@@ -11,8 +11,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="modern-normalize" href="https://cdnjs.com/libraries/modern-normalize">
 </head>
-<body>
+<body class="main-page">
     <header class="header">
     <div class="container header-container">
         <nav class="header-navigation">
@@ -42,34 +43,39 @@
     </div>
         </header>
 <main>
-        <section class="banner">         
+        <section class="banner">  
+            <div class="banner-container">       
         <h1 class="bannerhead">Effective Solutions for Your Business</h1>
 <button type="button" class="buttonblue">Order Service</button>
-   </section>
+</div>  
+</section>
 <section>
-    <h2>Content section 2</h2>
-    <ul>
-        <li>
+    <div class="container-features">
+    <!-- <h2>Features</h2> -->
+    <ul class="features-list">
+        <li class="feature-item">
      <h3 class="features">Strategy</h3>   
      <p class="featurecontent">Our goal is to identify the business problem to walk away with the perfect and creative solution. </p>
     </li>
-    <li>
+    <li class="feature-item">
     <h3 class="features">Punctuality</h3>
     <p class="featurecontent">Bring the key message to the brand's audience for the best price within the shortest possible time. </p>
 </li>
-    <li>
+    <li class="feature-item">
     <h3 class="features">Diligence</h3>
     <p class="featurecontent">Research and confirm brands that present the strongest digital growth opportunities and minimize risk. </p>
 </li>
-    <li>
+    <li class="feature-item">
     <h3 class="features">Technologies</h3>
     <p class="featurecontent">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
 </li>
 </ul>
+</div>
 </section>
 <section class="teamsection">
+    <div class="team-container">
     <h2 class="teamhead">Our Team</h2>
-    <ul>
+    <ul class="team-list">
         <li class="teammate">
         <img src="./images/1guy.jpg" alt="borodach" width="264" height="260">
         <h3 class="teamname">Mark Guerrero</h3>
@@ -92,41 +98,44 @@
         <p class="teamprof">UI Designer</p>
     </li>
     </ul>
+</div>
     </section>
     <section>
+        <div class="portfolio-container">
         <h2 class="portfolio">Our Portfolio</h2>
-        <ul>
-            <li>
+        <ul class="portfolio-list">
+            <li class="portfolio-list-item">
                 <img src="./images/bankapp.jpg" alt="bankpict" width="360" height="300">
                 <h3 class="typetitle">Banking App</h3>  
                 <p class="typeprof">App</p>
             </li>
-            <li>
+            <li class="portfolio-list-item">
                 <img src="./images/cashless.jpg" alt="cashpict" width="360" height="300">
                 <h3 class="typetitle">Cashless Payment</h3>  
                 <p class="typeprof">Marketing</p>
             </li>
-            <li>
+            <li class="portfolio-list-item">
                 <img src="./images/meditation.jpg" alt="medpict" width="360" height="300">
                 <h3 class="typetitle">Meditation App</h3>  
                 <p class="typeprof">App</p>
             </li>
-            <li>
+            <li class="portfolio-list-item">
                 <img src="./images/taxi.jpg" alt="taxipict" width="360" height="300">
                 <h3 class="typetitle">Taxi Service</h3>  
                 <p class="typeprof">Marketing</p>
             </li>
-            <li>
+            <li class="portfolio-list-item">
                 <img src="./images/screen.jpg" alt="screenpict" width="360" height="300">
                 <h3 class="typetitle">Screen Illustrations</h3>  
                 <p class="typeprof">Design</p>
             </li>
-            <li>
+            <li class="portfolio-list-item">
                 <img src="./images/onlincours.jpg" alt="courspict" width="360" height="300">
                 <h3 class="typetitle">Online Courses</h3>  
                 <p class="typeprof">Marketing</p>
             </li>
         </ul>
+    </div>
     </section>
 </main>
 <footer class="footerstyles">
