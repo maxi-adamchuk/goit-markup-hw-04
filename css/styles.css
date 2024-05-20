@@ -56,7 +56,6 @@ ul {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    padding: 188px 0;
 }
 .header-container {
   display: flex;  
@@ -91,7 +90,11 @@ color: #434455;
 .contacts:hover, .contacts:focus {
     color: #404bbf;
 }
-
+.banner-container {
+    width: 1440px;
+    padding: 188px 0;
+    margin: 0 auto;
+}
 
 .banner {
     background-color: #2E2F42;
@@ -106,13 +109,10 @@ color: #434455;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    margin-top: 188px;
-    margin-left: 473px;
-    margin-right: 473px;
-    margin-bottom: 48px;
-    display: flex;    
     max-width: 496px;
- 
+    margin-bottom: 48px;
+    margin: auto;
+
 }
 .buttonblue {
     background-color: #4D5AE5;
@@ -123,16 +123,21 @@ color: #434455;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    display: flex;
-    margin-bottom: 188px;
-    padding: 16px 32px 16px 32px;
-
-
+    min-width: 169px;
+    border-radius: 4px;
+    border: none;
+    height: 56px;
 }
 .buttonblue:hover, .buttonblue:focus {
     background-color: #404BBF;
 }
-
+.feature-section {
+    padding: 120px 0;
+   
+}
+.visually-hidden {
+    display: none;
+}
 .features {
 font-family: "Roboto", sans-serif;
 font-size: 20px;
@@ -141,8 +146,8 @@ line-height: 24px;
 text-align: left;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
-
 .featurecontent {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -162,7 +167,7 @@ color: #2e2f42;
 .features-list {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 24px;
     justify-content: center;
 }
 .feature-item {
@@ -170,7 +175,7 @@ display: flex;
 flex-direction: column;
 align-items: flex-start;
 gap: 8px;
-width: 264px;
+width: calc((100% - 72px) / 4);
 }
 .team-container{
     display: column;
