@@ -98,7 +98,6 @@ color: #434455;
     color: #404bbf;
 }
 
-
 .banner {
     background-color: #2E2F42;
     text-align: center;
@@ -172,6 +171,14 @@ text-align: left;
 letter-spacing: 0.02em;
 color: #2e2f42;
 margin-bottom: 8px;
+}
+.feature-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
 }
 .featurecontent {
     font-family: "Roboto", sans-serif;
